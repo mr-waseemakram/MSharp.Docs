@@ -37,4 +37,4 @@ namespace Modules
 
 As you can see we used `OnClick()` on a `ImageColumn` just like what we do with a button.
 Then we tell M# to move to view page and then send the `ID` of the current item to it as well.
-In this way we made our buttons interactive.
+In this way we made our images interactive.
