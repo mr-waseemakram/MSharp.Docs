@@ -10,7 +10,7 @@ It is easy to export Lists to Excel and CSV files, simply add a button to your l
 
 You can pick ExportFormat.Csv or ExportFormat.Excel.
 
-If you wish you can change the file name to something more appropriate using CommonActionParameter, the default is the name of the module.
+If you wish, you can change the file name to something more appropriate using CommonActionParameter, the default is the name of the module.
 
 ```csharp
 
