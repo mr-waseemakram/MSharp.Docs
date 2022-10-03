@@ -58,7 +58,7 @@ As you can see, We have used some new M# fluent API here, **DatabaseMode** metho
 
 - **DatabaseOption.Managed**: By default, this option is selected and it saves data to created table based on M# default conventions.
 - **DatabaseOption.Existing**: It doesn't create table by M# conventions and let you choose the table to be used.
-- **DatabaseOption.Transient**: Nothing will be saved to the database and every saved entities life depend on the current application running process.
+- **DatabaseOption.Transient**: Nothing will be saved to the database and every entities life depend on the current application running process.
 - **DatabaseOption.Custom**: You should define for the M# framework how to save entity.
 
 **Name** method has been used to change the name of the object to our custom name. In this case, we have set its name to *Project*. As our requirements told us, we should make sure that the project name is unique. To achieve this goal, M# has a method named **UniqueCombinarion**. In this method you should write your custom property name here.
