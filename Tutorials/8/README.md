@@ -109,9 +109,9 @@ namespace Domain
 }
 ```
 
-Time log class has an association with "Project" and "Developer", because we need to delete all related time logs when a developer delete, we have changed the default cascade action by calling this method: `.OnDelete(CascadeAction.CascadeDelete)`. "Hours" property is a calculated property and as requirement told us, we have calculated total hours. "Details" property has a new method, `HelpText()` add an information icon on UI and when a user click on that icon a simple text will be displayed for the user.
+Time log class has an association with "Project" and "Developer", because we need to delete all related time logs when a developer record is deleted, we have to change the default cascade action by calling this method: `.OnDelete(CascadeAction.CascadeDelete)`. "Hours" property is a calculated property as requirement has told us, so we have calculated total hours. "Details" property has a new method, `HelpText()`, this will add an information icon on UI and when a user click on that icon, a simple text will be displayed for the user.
 
-> **Note**:  If you feel you need intellisense to write the expression in calculated properties, you might go to the generated code for the model class, write your property there using intellisense, and then copy back the expression in the model class. Please note that generated code is overwritten every time model is build. We add the property there for using intellisense and then delete it after we get the expression.
+> **Note**:  If you feel you need intellisense to write the expression in calculated properties, you might go to the generated code for the model class, write your property there using intellisense, and then copy back the expression in the model class. Please note that generated code is overwritten every time model is build. We temporarily build the expression there, only for using intellisense and then delete it after we get the expression.
 
 Now open developer class again and change it like below:
 
