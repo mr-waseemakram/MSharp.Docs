@@ -80,7 +80,7 @@ namespace Domain
 }
 ```
 
-**Supplier** class has a computed column named **Address**. We have used array to join all address properties into one column because these properties can be null and this way is best practice to join null-able string properties. This class has an inverse association with **SupplierService** property and other properties are just simple sting property.
+**Supplier** class has a computed column named **Address**. We have used array to join all address properties into one column because these properties can be null and this way is best practice to join null-able string properties. This class has an inverse association with **SupplierService** property and other properties are just simple string property.
 
 ```csharp
 using MSharp;
