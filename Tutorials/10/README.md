@@ -106,7 +106,7 @@ public class AgencyPage : RootPage
 ```
 
 The "AgencyPage" holds agency list module that we are going to create it in the next steps.
-Create a folder with the name of "Agency" under "Pages" folder and add *EnterPage* sub page class as shown bellow:
+Create a folder with the name of "Agency" under "Pages" folder and add *EnterPage* sub page class as shown below:
 
 ```csharp
 using MSharp;
