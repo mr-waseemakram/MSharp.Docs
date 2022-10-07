@@ -356,7 +356,7 @@ namespace Modules
 }
 ```
 
-The **SupplierForm** has got a new generic method named `MasterDetail<SupplierService>(x => x.Services,*System.Action<FormModule<Domain.SupplierService>> supplierServiceForm*)`. This method tells M# that this page has a nested form and act like a master detail page. **supplierServiceForm** is detail form that is a *FormModule* and is like other usual M# form pages, but it has a special method for saving its content and this method is `AddMasterDetailRow()`. By calling `MinCardinality()` method we have initialized this detail page with three preselected values and user can't inset less that 3 values. If you need to put a restriction on maximum recodes, you can call `MaxCardinality()` function.
+The **SupplierForm** has got a new generic method named `MasterDetail<SupplierService>(x => x.Services,*System.Action<FormModule<Domain.SupplierService>> supplierServiceForm*)`. This method tells M# that this page has a nested form and act like a master detail page. **supplierServiceForm** is detail form that is a *FormModule* and is like other usual M# form pages, but it has a special method for saving its content and this method is `AddMasterDetailRow()`. By calling `MinCardinality()` method we have initialized this detail page with three preselected values and user can't insert less than 3 values. If you need to put a restriction on maximum recodes, you can call `MaxCardinality()` function.
 
 ### Creating Supplier Service Pages
 
