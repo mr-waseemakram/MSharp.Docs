@@ -433,7 +433,7 @@ namespace Modules
 
 We are done with *country* and it's subpages. Let's finish up with *reseller*.
 
-This project containes a dedicated page for *resellers*. So add a *root page* class named **ResellerPage** under **Pages** folder of **#UI** using M# context menu (or any oher way that yu are comfortable with):
+This project containes a dedicated page for *resellers*. So add a *root page* class named **ResellerPage** under **Pages** folder of **#UI** using M# context menu (or any other way that you are comfortable with):
 
 ```csharp
 using MSharp;
