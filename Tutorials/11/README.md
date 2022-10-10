@@ -84,7 +84,7 @@ namespace Domain
 }
 ```
 
-This is simple C# partial class, this class has the same name as our main entity has. Employee class has a method with the name of `GetWarnings()`, in this method we have written our business logic, we have checked state of *IDCard* and *Email* property and if they are empty, we have added a related warning and return them to the user. Now build **Domain** project again to see every this is working correctly.
+This is simple C# partial class, this class has the same name as our main entity has. Employee class has a method with the name of `GetWarnings()`, in this method we have written our business logic, we have checked state of *IDCard* and *Email* property and if they are empty, we have added a related warning and return them to the user. Now build **Domain** project again to see every thing is working correctly.
 
 ## Implementation: UI
 
