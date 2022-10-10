@@ -19,7 +19,7 @@ In this form users enter their required information and after click on the regis
 
 ## Implementation: Entities
 
-As we can see in the requirements, *one* entity can be identified and it is **Registration**. This entity has just three *string* properties and one *boolean* property. The only business login is to send email after successful registration.
+As we can see in the requirements, *one* entity can be identified and it is **Registration**. This entity has just three *string* properties and one *boolean* property. The only business logic is to send email after successful registration.
 After analyzing the requirements and identifying related properties, it's time to create them. Now let's create the corresponding classes in the **#Model** project.
 
 Create a **Domain** folder and add this class:
@@ -189,7 +189,7 @@ Build the *Domain* project to make sure everything regarding is fine.
 
 ## Implementation: UI
 
-As we can see in the requrements, we should develop one page:
+As we can see in the requirements, we should develop one page:
 
 - Register
 
